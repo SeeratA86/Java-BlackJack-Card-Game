@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<HBox
+      xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.PlayerController"
+            stylesheets="@/view/style.css"
+            alignment="CENTER"
+            spacing="10">
+
+      <VBox>
+            <TableView fx:id="handTv" prefWidth="300" prefHeight="200">
+                  <columns>
+                        <TableColumn text="Name">
+                              <cellValueFactory>
+                                    <PropertyValueFactory property="name"/>
+                              </cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn text="Attack">
+                              <cellValueFactory>
+                                    <PropertyValueFactory property="attack"/>
+                              </cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn text="Style">
+                              <cellValueFactory>
+                                    <PropertyValueFactory property="style"/>
+                              </cellValueFactory>
+                        </TableColumn>
+
+                        <TableColumn text="Health">
+                              <cellValueFactory>
+                                    <PropertyValueFactory property="health"/>
+                              </cellValueFactory>
+                        </TableColumn>
+                  </columns>
+            </TableView>
+
+            <Button fx:id="selectBtn"
+                  text="Select"
+                  onAction="#handleSelect"/>
+      </VBox>
+
+      <VBox>
+            <ListView fx:id="tempHandLv"/>
+
+            <Button fx:id="placeBtn"
+                  text="Place"
+                  onAction="#handlePlace"/>
+      </VBox>
+
+      <ImageView fx:id="cardIv" fitWidth="160" preserveRatio="true"/>
+
+</HBox>

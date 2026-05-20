@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.DeckController"
+      stylesheets="@/view/style.css"
+      alignment="CENTER">
+
+      <ListView fx:id="cardsLv"/>
+
+      <Button fx:id="showCardBtn"
+            text="Show Card"
+            onAction="#handleShowCard"/>
+
+      <Button fx:id="closeBtn"
+            text="Close"
+            onAction="#handleClose"/>
+
+
+</VBox>
