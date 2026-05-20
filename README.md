@@ -1,2 +1,2 @@
-# Java-BlackJack-Card-Game
-Java BlackJack card game demonstrating the techniques of object-oriented programming, game logic, MVC, and state management.
+# JavaFX-BlackJack-Card-Game
+JavaFX card game application demonstrating object-oriented programming, MVC structure, FXML views, controlls, and game state management.
