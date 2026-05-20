@@ -141,4 +141,4 @@ Before running the project, make sure you have:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Java-Blackjack-Card-Game.git
+git clone https://github.com/YSeeratA86/Java-Blackjack-Card-Game.git
