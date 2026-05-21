@@ -27,72 +27,6 @@ The game includes separate views for the login/player setup, player gameplay, de
 - MVC-based project structure
 - FXML views and controller classes
 
-## Code Structure and Functionality
-
-### Model Classes
-
-The `model` package contains the main game logic and data classes.
-
-- `Card.java`  
-  Represents an individual playing card, including its suit, value, and display information.
-
-- `Deck.java`  
-  Represents a deck of cards and handles deck-related behaviour such as storing, drawing, or managing cards.
-
-- `CardLibrary.java`  
-  Stores or manages the available cards used in the game.
-
-- `Player.java`  
-  Represents the player and stores player-related information, such as their hand and gameplay state.
-
-- `Dealer.java`  
-  Represents the dealer and manages dealer-related game actions.
-
-### Controller Classes
-
-The `controller` package connects the JavaFX user interface to the game logic.
-
-- `LoginController.java`  
-  Handles the login or player setup screen.
-
-- `PlayerController.java`  
-  Handles player screen actions and updates the player view.
-
-- `DealerController.java`  
-  Handles dealer screen actions and dealer-related gameplay.
-
-- `DeckController.java`  
-  Handles deck view interactions.
-
-- `CardController.java`  
-  Handles individual card display or card-related actions.
-
-- `PlayerWinController.java`  
-  Handles the result or winning screen.
-
-### View Files
-
-The `view` package contains the FXML files used to build the JavaFX interface.
-
-- `LoginView.fxml`  
-  The first screen where the player starts the game.
-
-- `PlayerView.fxml`  
-  Displays the player gameplay screen.
-
-- `CardView.fxml`  
-  Displays card-related interface elements.
-
-- `DeckView.fxml`  
-  Displays deck-related information.
-
-- `PlayerWinView.fxml`  
-  Displays the final result screen.
-
-- `style.css`  
-  Contains styling for the JavaFX interface.
-
-
 ## Project Structure
 ```text
 .
@@ -142,3 +76,19 @@ Before running the project, make sure you have:
 
 ```bash
 git clone https://github.com/YSeeratA86/Java-Blackjack-Card-Game.git
+```
+
+## What I Learned
+This project helped me build a stronger understanding of how different responsibilities worked in an MVC-style structure, where model classes manage the game data and logic, the controller handles user interactions, and FXML files define the user interface.
+
+- Building graphical user interfaces using JavaFX
+- Connecting FXML views to Java controller classes
+- Handling user actions through event-driven programming
+- Managing game state across multiple screens
+- Designing model classes for cards, decks, players, and dealers
+- Using CSS to style a JavaFX interface
+- Structuring a Java project so that the code is easier to understand and maintin.
+
+Overall, this project helped me understand how a simple card game can be expanded into a more organised GUI application using Java, JavaFX, and MVC principles.
+
+
