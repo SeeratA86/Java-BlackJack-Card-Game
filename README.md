@@ -8,6 +8,9 @@ This project is a JavaFX Blackjack card game where the player plays against a de
 
 The game includes separate views for the login/player setup, player gameplay, dealer gameplay, deck viewing, and win/result screens.
 
+## Related Project
+An earlier terminal-based version of this Blackjack game was also developed to practise the core game logic before extending the project into a JavaFX MVC application.
+
 ## How the Game Works
 
 1. The player starts the application and enters the required player details.
